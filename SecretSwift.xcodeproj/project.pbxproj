@@ -13,6 +13,8 @@
 		11F161102899216C00FDBBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F1610E2899216C00FDBBDA /* Main.storyboard */; };
 		11F161122899216D00FDBBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F161112899216D00FDBBDA /* Assets.xcassets */; };
 		11F161152899216D00FDBBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F161132899216D00FDBBDA /* LaunchScreen.storyboard */; };
+		11F1611E289A647400FDBBDA /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1611C289A647400FDBBDA /* KeychainItemAccessibility.swift */; };
+		11F1611F289A647400FDBBDA /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1611D289A647400FDBBDA /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		11F161112899216D00FDBBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F161142899216D00FDBBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F161162899216D00FDBBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F1611C289A647400FDBBDA /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		11F1611D289A647400FDBBDA /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				11F161112899216D00FDBBDA /* Assets.xcassets */,
 				11F161132899216D00FDBBDA /* LaunchScreen.storyboard */,
 				11F161162899216D00FDBBDA /* Info.plist */,
+				11F1611C289A647400FDBBDA /* KeychainItemAccessibility.swift */,
+				11F1611D289A647400FDBBDA /* KeychainWrapper.swift */,
 			);
 			path = SecretSwift;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F1610D2899216C00FDBBDA /* ViewController.swift in Sources */,
+				11F1611E289A647400FDBBDA /* KeychainItemAccessibility.swift in Sources */,
 				11F161092899216C00FDBBDA /* AppDelegate.swift in Sources */,
 				11F1610B2899216C00FDBBDA /* SceneDelegate.swift in Sources */,
+				11F1611F289A647400FDBBDA /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
